@@ -1,0 +1,47 @@
+XPath
+1. Absolute Path (/)
+2. Relative Path(//)
+1. Absolute Path
+     Root to current Object
+Relative Xpath can contain:
+1. Arithmetic Operator
+2. Xpath Functions()
+    text()
+    contains()
+    starts-with()
+    normalize space()
+    
+    JavascriptExecutor
+    
+   1. Identify the object using JavaScript +Execute the script using Java Script
+   2. Identify object using WebDriver + Execute the script using Java Script
+   
+   1. Scroll / ScrollTO
+   2. ScrollBy
+   3. ScrrollIntoView
+   *********************************************************************
+   TestNG 
+   
+   Assertion:
+    1. HardAssertion(Assert)
+    2. SoftAssertion(SoftAssert)
+   *********************************************************************
+   Framework
+   1. TestNg Framework
+   2. POM design Pattern
+   3. PageFactory class for locating the objects in the application
+   4. Approach Data Driven (Data Provider)
+   5. Default TestNG Report
+   6. Log4j (For Logging purpose)
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
