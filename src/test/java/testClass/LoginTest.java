@@ -29,11 +29,11 @@ public class LoginTest {
 	
 	@Test(priority = 2)
 	public void LoginTest() {
-//		loginPage=new LoginPage(driver);
-//		loginPage.enterUsername("jsmith");
-//		loginPage.enterPassword("demo1234");
-//		loginPage.btnClick();
-		loginPage.userLogin("jsmith", "demo1234");
+		loginPage=new LoginPage(driver);
+		loginPage.enterUsername("jsmith");
+		loginPage.enterPassword("demo1234");
+		loginPage.btnClick();
+//		loginPage.userLogin("jsmith", "demo1234");
 	    boolean b=loginPage.isVisible();
 	    Assert.assertTrue(b);
 	}
